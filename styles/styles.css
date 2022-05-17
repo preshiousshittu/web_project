@@ -255,7 +255,7 @@ section {
   color: var(--color-secondary);
 }
 
-.header-content .right-header .name p {
+.header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
@@ -726,7 +726,7 @@ section {
 }
 
 .main-btn .btn-text {
-  padding: 0 10rem;
+  padding: 0 2rem;
 }
 
 .main-btn .btn-icon {
@@ -843,16 +843,16 @@ section {
         grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
-  .left-header .h-shape {
+  .header-content .left-header .h-shape {
     display: none;
   }
-  .right-header {
+  .header-content .right-header {
     -ms-grid-row: 1;
     grid-row: 1;
     width: 90%;
     margin: 0 auto;
   }
-  .right-header .name {
+  .header-content .right-header .name {
     font-size: 2.5rem !important;
   }
   .header-content.left-header .image {
@@ -915,6 +915,61 @@ section {
   }
   .controls .control {
     margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-content {
+    padding: 0;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .header-content .left-header .h-shape {
+    display: none;
+  }
+  .header-content .right-header {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .header-content .right-header .name {
+    font-size: 2.0rem !important;
+  }
+  .header-content .right-header p {
+    margin: 0 0.5rem;
+    line-height: 1;
+  }
+  .controls {
+    top: auto;
+    bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: -0%;
+    background-color: var(--color-grey-5);
+    border-radius: 30rem;
+  }
+  .controls .control {
+    margin: 0.5rem;
+    width: 30px;
+    height: 30px;
+  }
+  .main-btn {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .main-btn .btn-text {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .main-title h2 {
+    font-size: 1rem 1.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

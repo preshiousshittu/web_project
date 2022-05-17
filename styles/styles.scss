@@ -188,10 +188,10 @@ section {
             span{
                 color: var(--color-secondary)
             }
-            p{
-                margin: 1.5rem 0;
-                line-height: 2rem;
-            }
+        }
+        p{
+            margin: 1.5rem 0;
+            line-height: 2rem;
         }
     }
 }
@@ -510,7 +510,7 @@ section {
     align-items: center;
     overflow: hidden;
     .btn-text { 
-        padding: 0 10rem;
+        padding: 0 2rem;
      }
     .btn-icon {
         background-color: var(--color-secondary);
