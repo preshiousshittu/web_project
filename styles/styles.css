@@ -931,11 +931,11 @@ section {
   .header-content .right-header {
     -ms-grid-row: 1;
     grid-row: 1;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
   }
   .header-content .right-header .name {
-    font-size: 2.0rem !important;
+    font-size: 1.9rem !important;
   }
   .header-content .right-header p {
     margin: 0 0.5rem;
