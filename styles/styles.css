@@ -838,6 +838,7 @@ section {
     padding: 0 !important;
   }
   .header-content {
+    padding: 0;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     padding-bottom: 6rem;
@@ -877,6 +878,7 @@ section {
         grid-template-columns: 1fr;
   }
   .portfolios {
+    padding: 0;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     padding-bottom: 6rem;
@@ -904,10 +906,10 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
-    left: -50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: -0%;
     background-color: var(--color-grey-5);
     border-radius: 30rem;
   }
